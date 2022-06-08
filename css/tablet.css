@@ -1,0 +1,13 @@
+*{
+  background-color: burlywood;
+  font-size: 25px
+}
+
+/* HEADER */
+
+.logo{
+  width: 200px;  
+}
+nav{
+  margin-right: 20px;
+}

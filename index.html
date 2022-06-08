@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 992px) and (min-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/cellphone.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    <title>Booki</title>
+    
+  </head>
+  <body>
+<!--Header-->
+    <header>
+      <img class="logo" src="images/Booki.png" alt="logo de Booki"/>
+      <nav>
+        <div class="nav__btn selected">
+          <div class="nav__border"></div>
+          <a href="#">Hébergements</a>
+        </div>
+        <div class="nav__btn">
+          <div class="nav__border"></div>
+          <a href="#">Activités</a>
+        </div>
+      </nav>
+    </header>
+<!--Main-->
+    <main>
+      <div class="main__up">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <!--Search Box-->
+        <form class="searchbox">
+          <div class="searchbox__icon"><i class="fa-solid fa-location-dot"></i></div>
+          <input class= "searchbox__input" type="search" value="Marseille , France"/>
+          <button class="searchbox__btn">Rechercher</button>
+          <button class="searchbox__btn--cellphone"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <!--Filter-->
+        <section class="filter">
+          <div class="filter__titlebox">
+            <p class="filter__title">Filtres</p>
+          </div>
+          <div class="filter__btnbox">
+            <div class="filter__btn">
+              <div class="filter__btn__icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+              <p class="filter__btn__text">Économique</p>
+            </div>
+            <div class="filter__btn">
+              <div class="filter__btn__icon"><i class="fa-solid fa-child"><!-- <i class="fa-solid fa-child-reaching"></i> --></i></div>
+              <p class="filter__btn__text">Familial</p>
+            </div>
+            <div class="filter__btn">
+              <div class="filter__btn__icon"><i class="fa-solid fa-heart"></i></div>
+              <p class="filter__btn__text">Romantique</p>
+            </div>
+            <div class="filter__btn">
+              <div class="filter__btn__icon"><i class="fa-solid fa-dog"></i></div>
+              <p class="filter__btn__text">Animaux autorisés</p>
+            </div>
+          </div>  
+        </section>       
+        <!--Info-->
+        <section class="info">
+          <div class="info__icon"><i class="fa-solid fa-info"></i></div>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
+      </div> 
+      <!--Lodging-->
+      <section class="lodging">
+        <!--Marseille-->
+        <div class="lodging__section marseille-lodging">          
+          <h2>Hébergements à Marseille</h2>          
+          <div class="marseille-lodging__main">
+            <!--Cards-->
+            
+            <a href="#">
+              <div class="card card--marseille-lodging">
+                <div class="card--marseille-lodging__img">
+                  <img
+                  srcset="images/lodging/large/la_cannebiere.jpg 2997w, images/lodging/medium/la_cannebiere.jpg 1499w, images/lodging/small/la_cannebiere.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/la_cannebiere.jpg"
+                  alt="Auberge La Cannebière"
+                  class="framing-up--25px">
+                </div>                
+                <h3 class="card__title">Auberge La Cannebière</h3>
+                <p class="card__price">Nuit à partir de <strong>25€</strong></p>
+                <div class="card__starbox">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star unselected-star"></i>
+                </div>                 
+              </div>
+            </a>  
+
+            <a href="#">
+              <div class="card card--marseille-lodging">
+                <div class="card--marseille-lodging__img">
+                  <img
+                  srcset="images/lodging/large/hotel_du_port.jpg 2736w, images/lodging/medium/hotel_du_port.jpg 1368w, images/lodging/small/hotel_du_port.jpg 684w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/hotel_du_port.jpg"
+                  alt="Hôte du port"
+                  class="framing-up--25px">
+                </div>                
+                <h3 class="card__title">Hôtel du port</h3>
+                <p class="card__price">Nuit à partir de 52<strong>€</strong></p>
+                <div class="card__starbox">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>                 
+              </div>
+            </a> 
+
+            <a href="#">
+              <div class="card card--marseille-lodging">
+                <div class="card--marseille-lodging__img">
+                  <img
+                  srcset="images/lodging/large/les_mouettes.jpg 3000w, images/lodging/medium/les_mouettes.jpg 1500w, images/lodging/small/les_mouettes.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/les_mouettes.jpg"
+                  alt="Hôtel Les mouettes"
+                  class="framing-up--25px">
+                </div>                
+                <h3 class="card__title">Hôtel Les mouettes</h3>
+                <p class="card__price">Nuit à partir de 76<strong>€</strong></p>
+                <div class="card__starbox">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star unselected-star"></i>
+                </div>                 
+              </div>
+            </a> 
+
+            <a href="#">
+              <div class="card card--marseille-lodging">
+                <div class="card--marseille-lodging__img">
+                  <img
+                  srcset="images/lodging/large/hotel_de_la_mer.jpg 2997w, images/lodging/medium/hotel_de_la_mer.jpg 1499w, images/lodging/small/hotel_de_la_mer.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/hotel_de_la_mer.jpg"
+                  alt="Hôtel de la mer"
+                  class="framing-up--65px">
+                </div>                
+                <h3 class="card__title">Hôtel de la mer</h3>
+                <p class="card__price">Nuit à partir de 46<strong>€</strong></p>
+                <div class="card__starbox">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star unselected-star"></i>
+                  <i class="fa-solid fa-star unselected-star"></i>
+                </div>                 
+              </div>
+            </a> 
+
+            <a href="#">
+              <div class="card card--marseille-lodging">
+                <div class="card--marseille-lodging__img">
+                  <img
+                  srcset="images/lodging/large/le_panier.jpg 2997w, images/lodging/medium/le_panier.jpg 1499w, images/lodging/small/le_panier.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/le_panier.jpg"
+                  alt="Auberge Le Panier">
+                </div>                
+                <h3 class="card__title">Auberge Le Panier</h3>
+                <p class="card__price">Nuit à partir de <strong>23€</strong></p>
+                <div class="card__starbox">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star unselected-star"></i>
+                </div>                 
+              </div>
+            </a> 
+
+            <a href="#">
+              <div class="card card--marseille-lodging">
+                <div class="card--marseille-lodging__img">
+                  <img
+                  srcset="images/lodging/large/chez_amina.jpg 2997w, images/lodging/medium/chez_amina.jpg 1499w, images/lodging/small/chez_amina.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/chez_amina.jpg"
+                  alt="Hôtel chez Amina"
+                  class="framing-up--150px">
+                </div>                
+                <h3 class="card__title">Hôtel chez Amina</h3>
+                <p class="card__price">Nuit à partir de 96<strong>€</strong></p>
+                <div class="card__starbox">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>                 
+              </div>
+            </a> 
+
+          </div>
+        </div>
+        <!--Popular-->
+        <div class="lodging__section popular-lodging">
+          <h2>Les plus populaires</h2>
+          <div class="popular-lodging__main">
+
+            <a href="#">
+              <div class="card card--popular-lodging">
+                <div class="card--popular-lodging__img">
+                  <img
+                  srcset="images/lodging/large/le_soleil_du_matin.jpg 2997w, images/lodging/medium/le_soleil_du_matin.jpg 1499w, images/lodging/small/le_soleil_du_matin.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/le_soleil_du_matin.jpg"
+                  alt="Hôtel Le soleil du matin">
+                </div>
+                <div class="card__text-box"> 
+                  <div>             
+                    <h3 class="card__title">Hôtel Le soleil du matin</h3>
+                    <p class="card__price">Nuit à partir de 128<strong>€</strong></p>
+                  </div>
+                  <div class="card__starbox">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div> 
+                </div>
+              </div>                
+            </a>
+
+            <a href="#">
+              <div class="card card--popular-lodging">
+                <div class="card--popular-lodging__img">
+                  <img
+                  srcset="images/lodging/large/le_soleil_du_matin.jpg 2997w, images/lodging/medium/le_soleil_du_matin.jpg 1499w, images/lodging/small/le_soleil_du_matin.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/le_soleil_du_matin.jpg"
+                  alt="Hôtel Le soleil du matin">
+                </div>
+                <div class="card__text-box"> 
+                  <div>             
+                    <h3 class="card__title">Hôtel Le soleil du matin</h3>
+                    <p class="card__price">Nuit à partir de 128<strong>€</strong></p>
+                  </div>
+                  <div class="card__starbox">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div> 
+                </div>
+              </div>                
+            </a>
+
+            <a href="#">
+              <div class="card card--popular-lodging">
+                <div class="card--popular-lodging__img">
+                  <img
+                  srcset="images/lodging/large/le_soleil_du_matin.jpg 2997w, images/lodging/medium/le_soleil_du_matin.jpg 1499w, images/lodging/small/le_soleil_du_matin.jpg 750w"
+                  sizes="(min-widht:768px) 25vw, 100vw"
+                  src="images/lodging/large/le_soleil_du_matin.jpg"
+                  alt="Hôtel Le soleil du matin">
+                </div>
+                <div class="card__text-box"> 
+                  <div>             
+                    <h3 class="card__title">Hôtel Le soleil du matin</h3>
+                    <p class="card__price">Nuit à partir de 128<strong>€</strong></p>
+                  </div>
+                  <div class="card__starbox">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div> 
+                </div>
+              </div>                
+            </a>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
