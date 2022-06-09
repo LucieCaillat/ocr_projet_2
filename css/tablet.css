@@ -1,5 +1,4 @@
-*{
-  background-color: burlywood;
+body{  
   font-size: 25px
 }
 
@@ -10,4 +9,33 @@
 }
 nav{
   margin-right: 20px;
+}
+/* MAIN */
+/* SEARCH BOX */
+/* FILTER */
+/* INFO */
+/* LODGING */
+.lodging{
+  flex-direction: column-reverse;
+}
+.lodging__section{
+  margin: 10px 0;
+}
+  /*mareille lodging*/
+.marseille-lodging{
+  width: 100%;
+}
+.marseille-lodging__main a{
+  width: 40%;  
+}
+
+  /*popular lodging*/
+
+.popular-lodging{  
+  width: 100%;
+}
+
+.card--popular-lodging{
+  height: 290px;
+  max-width: 750px;   
 }

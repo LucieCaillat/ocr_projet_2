@@ -191,6 +191,7 @@ margin-top: 10px;
   background-color: #ffffff;
   border-radius: 25px;
   box-shadow: 0 0 15px lightgray;
+  padding: 6px;
 }
 .card__title, .card__price, .card__starbox{
   margin: 7px 15px;
@@ -230,8 +231,7 @@ margin-top: 10px;
   width: 30%;
   margin: 20px 0;  
 }
-.card--marseille-lodging{
-  padding: 6px;
+.card--marseille-lodging{  
   height: 265px;
 }
 .card--marseille-lodging__img{
@@ -243,14 +243,17 @@ margin-top: 10px;
 .card--marseille-lodging img{
   width: 100%;  
 }
-.framing-up--25px{
-  margin: -25px 0px 0px 0px;
+.img-la-cannebiere{
+  margin: -35px 0px 0px 0px;
 }
-.framing-up--65px{
-  margin: -65px 0px 0px 0px;
+.img-les-mouettes, .img-hotel-du-port{
+  margin: -30px 0px 0px 0px;
 }
-.framing-up--150px{
-  margin: -150px 0px 0px 0px;
+.img-hotel-de-la-mer{
+  margin: -75px 0px 0px 0px;
+}
+.img-chez-amina{
+  margin: -165px 0px 0px 0px;
 }
 .marseille-lodging__view-more{
   font-size: 25px;
@@ -283,12 +286,11 @@ margin-top: 10px;
   margin: 20px 0;
 }
 .card--popular-lodging{
-  display: flex; 
-  padding: 6px;
+  display: flex;   
   height: 200px; 
 }
 .card--popular-lodging__img{
-  width: 40%;  
+  width: 35%;  
   overflow: hidden;
   border-radius: 20px 0px 0px 20px;
 }
@@ -296,7 +298,16 @@ margin-top: 10px;
   height: 100%;
 }
 #img--thin{
-  width: 100%;
+  height: 140%;
+}
+.img-le-soleil-du-matin{
+  margin: 0px 0px 0px -60px;
+}
+.img-au-coeur-de-leau{
+  margin: 0px 0px 0px -50px;
+}
+.img-tout-bleu-et-blanc{
+  margin: -30px 0px 0px 0px;
 }
 
 .card__text-box{
@@ -306,5 +317,4 @@ margin-top: 10px;
   margin: 1.5%;
   width: 50%;
   min-width: 130px;
-
 }
