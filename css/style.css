@@ -214,7 +214,8 @@ margin-top: 10px;
   color: #0065FC; 
 }
 .card:hover{
-  box-shadow: 0 0 40px lightgrey;
+  box-shadow: 0 0 40px grey;
+  color: #0065FC;  /*!!!!!!!!choisir une couleur plus tard!!!!!!!!*/
 }
     /*mareille lodging*/
 .marseille-lodging{
@@ -317,4 +318,65 @@ margin-top: 10px;
   margin: 1.5%;
   width: 50%;
   min-width: 130px;
+}
+
+/*ACTIVITY*/
+
+
+.activity-main{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+.activity-main__column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24%;    
+  height: 600px; 
+}
+.card--activity{
+  width: 100%;  
+  padding: 0;
+  cursor: pointer;
+}
+.card--activity__img{
+  width: 100%;     
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
+}
+.card--activity .card__title{
+  margin: 20px 35px;
+}
+  /*size adjustment Activity cards*/
+
+.card--activity--alone{
+  height: 100%;
+}
+.card--activity--alone .card--activity__img{
+  height: 530px; /* 600px(max size) - 70px(title place) = 530px*/
+}
+.card--activity--fort-de-pomegues{
+  height: 320px;
+}
+.card--activity--fort-de-pomegues .card--activity__img{
+  height: 250px; /* 320px-70px*/
+}
+.card--activity--iles-du-frioul{
+  height: 230px;
+}
+.card--activity--iles-du-frioul .card--activity__img{
+  height: 160px; /* 230px-70px*/
+}
+.card--activity--notre-dame-de-la-garde{
+  height: 260px;
+}
+.card--activity--notre-dame-de-la-garde .card--activity__img{
+  height: 190px; /* 260px-70px*/  
+}
+.card--activity--parc-longchamp{
+  height: 280px;
+}
+.card--activity--parc-longchamp .card--activity__img{
+  height: 210px; /* 280px-70px*/
 }
