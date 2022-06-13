@@ -31,7 +31,7 @@ main{
   margin: 0px;
 }
 .main__up{
-  margin: 40px;
+  margin: 6%;
 }
 h1{
   font-size: 42px; 
@@ -122,9 +122,11 @@ h2{
 }
 .lodging{
   flex-direction: column-reverse;
+  margin-top: 60px;
 }
 .lodging__section{
   border-radius: 0;
+  padding: 20px 6%;
 }
 .card{
   border-radius: 35px;
@@ -132,7 +134,7 @@ h2{
   padding: 8px;
 }
 .card__title, .card__price, .card__starbox{
-  margin: 10px 25px;
+  margin: 1.6% 3.5%;
 }
 .card__title{
   font-size: 30px;  
@@ -141,7 +143,7 @@ h2{
   font-size: 26px;
 }
 .card__starbox{
-  margin-top: 20px;
+  margin-top: 3%;
   font-size: 24px;   
 }
 
@@ -206,4 +208,47 @@ h2{
 .card__text-box{
   margin: 2.3%;
   min-width: 210px;
+}
+.marseille-lodging__view-more{
+  font-size: 36px;
+}
+/*ACTIVITY*/
+.activity{
+  margin: 85px 6%;
+}
+.activity-main{
+  flex-direction: column;
+}
+.activity-main__column{  
+  width: 100%;    
+  height: auto; 
+}
+.card--activity{
+  padding: 0;
+  height: 380px;
+  margin: 25px 0;
+}
+
+.card--activity--alone .card--activity__img, .card--activity--parc-longchamp .card--activity__img, .card--activity--fort-de-pomegues .card--activity__img, .card--activity--iles-du-frioul .card--activity__img, .card--activity--notre-dame-de-la-garde .card--activity__img{
+  height: 265px;
+}
+.card--activity .card__title{
+  margin: 5% 7%;
+}
+
+/*FOOTER*/
+
+.footer{
+  flex-direction: column;
+  padding: 60px 0;
+}
+.footer__column{
+  width: 100%;
+  padding: 0 8%;
+}
+.footer h4{
+  font-size: 35px;
+}
+.footer li{  
+  margin: 25px 0;  
 }

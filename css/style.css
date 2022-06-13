@@ -135,7 +135,7 @@ margin-top: 10px;
   cursor: pointer;
 }
 .filter__btn:hover{
-  box-shadow: 0px 0px 30px #DEEBFF;   
+  box-shadow: 0px 0px 30px lightgray; 
 }
 .filter__btn__icon{
   position: absolute;
@@ -215,7 +215,7 @@ margin-top: 10px;
 }
 .card:hover{
   box-shadow: 0 0 40px grey;
-  color: #0065FC;  /*!!!!!!!!choisir une couleur plus tard!!!!!!!!*/
+  color: #0065FC;  
 }
     /*mareille lodging*/
 .marseille-lodging{
