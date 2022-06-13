@@ -1,5 +1,5 @@
 body{  
-  font-size: 25px
+  font-size: 25px;  
 }
 
 /* HEADER */
@@ -11,8 +11,54 @@ nav{
   margin-right: 20px;
 }
 /* MAIN */
+h1{
+  font-size: 35px;     
+}
+h2{
+  font-size: 34px;
+}
 /* SEARCH BOX */
+.searchbox{
+  height: 90px; 
+  margin: 60px 0;
+  font-size: 30px;
+}
+.searchbox__icon{
+  width: 15%;  
+  border-radius: 30px 0px 0px 30px;  
+}
+.searchbox__input{
+  width: 55%;  
+  padding-left: 40px;
+}
+.searchbox__btn{
+  width: 25%;
+  border-radius: 0px 30px 30px 0px;
+}
+
 /* FILTER */
+
+.filter{
+  display: block;
+  font-size: 30px;
+}
+
+.filter__btn{
+  height: 80px;
+  border-radius: 40px;
+  border-width: 3px;
+  margin: 15px 8px;
+}
+.filter__btn__icon{
+  left: -5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+.filter__btn__text{
+  margin: 30px;
+  margin-left: 90px;
+}
 /* INFO */
 /* LODGING */
 .lodging{
@@ -21,21 +67,84 @@ nav{
 .lodging__section{
   margin: 10px 0;
 }
+
+.card__title, .card__price, .card__starbox{
+  margin: 0.5% 2%;
+}
+.card__title{
+  font-size: 29px;  
+}
+.card__price{
+  font-size: 25px;
+}
+.card__starbox{
+  margin-top: 3%;
+  font-size: 22px;   
+}
+
   /*mareille lodging*/
 .marseille-lodging{
   width: 100%;
 }
 .marseille-lodging__main a{
-  width: 40%;  
+  min-width: 0px;
+  width: 48%;  
 }
-
+.marseille-lodging .card__title{
+  font-size: 26px;
+}
   /*popular lodging*/
 
 .popular-lodging{  
   width: 100%;
 }
-
+.popular-lodging__main{
+  justify-content: space-around;
+}
+.popular-lodging__main a{  
+  width: 88%;
+  margin: 20px 6%;
+}
 .card--popular-lodging{
-  height: 290px;
-  max-width: 750px;   
+  height: 290px;   
+}
+
+/*ACTIVITY*/
+.activity{
+  margin: 85px 6%;
+}
+.activity-main{
+  flex-direction: column;
+}
+.activity-main__column{  
+  width: 100%;    
+  height: auto; 
+}
+.card--activity{
+  padding: 0;
+  height: 380px;
+  margin: 25px 0;
+}
+
+.card--activity--alone .card--activity__img, .card--activity--parc-longchamp .card--activity__img, .card--activity--fort-de-pomegues .card--activity__img, .card--activity--iles-du-frioul .card--activity__img, .card--activity--notre-dame-de-la-garde .card--activity__img{
+  height: 265px;
+}
+.card--activity .card__title{
+  margin: 5% 7%;
+}
+
+/* FOOTER*/
+.footer{
+  flex-direction: column;
+  padding: 60px 0;
+}
+.footer__column{
+  width: 100%;
+  padding: 0 8%;
+}
+.footer h4{
+  font-size: 35px;
+}
+.footer li{  
+  margin: 25px 0;  
 }
