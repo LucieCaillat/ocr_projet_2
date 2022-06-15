@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width" />    
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 992px) and (min-width:768px)" href="css/tablet.css" />
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/cellphone.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 992px) and (min-width:768px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/cellphone.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <title>Booki</title>
-    
   </head>
   <body>
-<!--Header-->
+    <!--Header-->
     <header>
-      <img class="logo" src="images/Booki.png" alt="logo de Booki"/>
+      <img class="logo" src="images/Booki.png" alt="logo de Booki" />
       <nav>
         <div class="nav__btn selected">
           <div class="nav__border"></div>
@@ -27,17 +40,25 @@
         </div>
       </nav>
     </header>
-<!--MAIN-->
+    <!--MAIN-->
     <main>
       <div class="main__up">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <!--SEARCH BOX-->
         <form class="searchbox">
-          <div class="searchbox__icon"><i class="fa-solid fa-location-dot"></i></div>
-          <input class= "searchbox__input" type="search" value="Marseille , France"/>
+          <div class="searchbox__icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <input
+            class="searchbox__input"
+            type="search"
+            value="Marseille , France"
+          />
           <button class="searchbox__btn">Rechercher</button>
-          <button class="searchbox__btn--cellphone"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="searchbox__btn--cellphone">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </form>
         <!--FILTER-->
         <div class="filter">
@@ -46,47 +67,61 @@
           </div>
           <div class="filter__btnbox">
             <div class="filter__btn">
-              <div class="filter__btn__icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+              <div class="filter__btn__icon">
+                <i class="fa-solid fa-money-bill-wave"></i>
+              </div>
               <p class="filter__btn__text">Économique</p>
             </div>
             <div class="filter__btn">
-              <div class="filter__btn__icon"><i class="fa-solid fa-child"><!-- <i class="fa-solid fa-child-reaching"></i> --></i></div>
+              <div class="filter__btn__icon">
+                <i class="fa-solid fa-child"
+                  ><!-- <i class="fa-solid fa-child-reaching"></i> --></i
+                >
+              </div>
               <p class="filter__btn__text">Familial</p>
             </div>
             <div class="filter__btn">
-              <div class="filter__btn__icon"><i class="fa-solid fa-heart"></i></div>
+              <div class="filter__btn__icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
               <p class="filter__btn__text">Romantique</p>
             </div>
             <div class="filter__btn">
-              <div class="filter__btn__icon"><i class="fa-solid fa-dog"></i></div>
+              <div class="filter__btn__icon">
+                <i class="fa-solid fa-dog"></i>
+              </div>
               <p class="filter__btn__text">Animaux autorisés</p>
             </div>
-          </div>  
-        </div>       
+          </div>
+        </div>
         <!--INFO-->
         <div class="info">
           <div class="info__icon"><i class="fa-solid fa-info"></i></div>
           <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-      </div> 
+      </div>
       <!--LODGING-->
       <section class="lodging" id="lodging">
         <!--Marseille-->
-        <div class="lodging__section marseille-lodging">          
-          <h2>Hébergements à Marseille</h2>          
+        <div class="lodging__section marseille-lodging">
+          <h2>Hébergements à Marseille</h2>
           <div class="marseille-lodging__main">
             <!--Cards-->
-            
+
             <a href="#">
               <div class="card card--marseille-lodging">
                 <div class="card--marseille-lodging__img">
                   <img
-                  srcset="images/lodging/medium/la_cannebiere.jpg 1499w, images/lodging/small/la_cannebiere.jpg 750w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/la_cannebiere.jpg"
-                  alt="Auberge La Cannebière"
-                  class="img-la-cannebiere">
-                </div>                
+                    srcset="
+                      images/lodging/medium/la_cannebiere.jpg 1499w,
+                      images/lodging/small/la_cannebiere.jpg   750w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/la_cannebiere.jpg"
+                    alt="Auberge La Cannebière"
+                    class="img-la-cannebiere"
+                  />
+                </div>
                 <h3 class="card__title">Auberge La Cannebière</h3>
                 <p class="card__price">Nuit à partir de <strong>25€</strong></p>
                 <div class="card__starbox">
@@ -95,20 +130,24 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star unselected-star"></i>
-                </div>                 
+                </div>
               </div>
-            </a>  
+            </a>
 
             <a href="#">
               <div class="card card--marseille-lodging">
                 <div class="card--marseille-lodging__img">
                   <img
-                  srcset="images/lodging/medium/hotel_du_port.jpg 1368w, images/lodging/small/hotel_du_port.jpg 684w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/hotel_du_port.jpg"
-                  alt="Hôte du port"
-                  class="img-hotel-du-port">
-                </div>                
+                    srcset="
+                      images/lodging/medium/hotel_du_port.jpg 1368w,
+                      images/lodging/small/hotel_du_port.jpg   684w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/hotel_du_port.jpg"
+                    alt="Hôte du port"
+                    class="img-hotel-du-port"
+                  />
+                </div>
                 <h3 class="card__title">Hôtel du port</h3>
                 <p class="card__price">Nuit à partir de 52<strong>€</strong></p>
                 <div class="card__starbox">
@@ -117,20 +156,24 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                </div>                 
+                </div>
               </div>
-            </a> 
+            </a>
 
             <a href="#">
               <div class="card card--marseille-lodging">
                 <div class="card--marseille-lodging__img">
                   <img
-                  srcset="images/lodging/medium/les_mouettes.jpg 1500w, images/lodging/small/les_mouettes.jpg 750w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/les_mouettes.jpg"
-                  alt="Hôtel Les mouettes"
-                  class="img-les-mouettes">
-                </div>                
+                    srcset="
+                      images/lodging/medium/les_mouettes.jpg 1500w,
+                      images/lodging/small/les_mouettes.jpg   750w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/les_mouettes.jpg"
+                    alt="Hôtel Les mouettes"
+                    class="img-les-mouettes"
+                  />
+                </div>
                 <h3 class="card__title">Hôtel Les mouettes</h3>
                 <p class="card__price">Nuit à partir de 76<strong>€</strong></p>
                 <div class="card__starbox">
@@ -139,20 +182,24 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star unselected-star"></i>
-                </div>                 
+                </div>
               </div>
-            </a> 
+            </a>
 
             <a href="#">
               <div class="card card--marseille-lodging">
                 <div class="card--marseille-lodging__img">
                   <img
-                  srcset="images/lodging/medium/hotel_de_la_mer.jpg 1499w, images/lodging/small/hotel_de_la_mer.jpg 750w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/hotel_de_la_mer.jpg"
-                  alt="Hôtel de la mer"
-                  class="img-hotel-de-la-mer">
-                </div>                
+                    srcset="
+                      images/lodging/medium/hotel_de_la_mer.jpg 1499w,
+                      images/lodging/small/hotel_de_la_mer.jpg   750w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/hotel_de_la_mer.jpg"
+                    alt="Hôtel de la mer"
+                    class="img-hotel-de-la-mer"
+                  />
+                </div>
                 <h3 class="card__title">Hôtel de la mer</h3>
                 <p class="card__price">Nuit à partir de 46<strong>€</strong></p>
                 <div class="card__starbox">
@@ -161,20 +208,24 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star unselected-star"></i>
                   <i class="fa-solid fa-star unselected-star"></i>
-                </div>                 
+                </div>
               </div>
-            </a> 
+            </a>
 
             <a href="#">
               <div class="card card--marseille-lodging">
                 <div class="card--marseille-lodging__img">
                   <img
-                  srcset="images/lodging/medium/le_panier.jpg 1499w, images/lodging/small/le_panier.jpg 750w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/le_panier.jpg"
-                  alt="Auberge Le Panier"
-                  class="img-le-panier">
-                </div>                
+                    srcset="
+                      images/lodging/medium/le_panier.jpg 1499w,
+                      images/lodging/small/le_panier.jpg   750w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/le_panier.jpg"
+                    alt="Auberge Le Panier"
+                    class="img-le-panier"
+                  />
+                </div>
                 <h3 class="card__title">Auberge Le Panier</h3>
                 <p class="card__price">Nuit à partir de <strong>23€</strong></p>
                 <div class="card__starbox">
@@ -183,20 +234,24 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star unselected-star"></i>
-                </div>                 
+                </div>
               </div>
-            </a> 
+            </a>
 
             <a href="#">
               <div class="card card--marseille-lodging">
                 <div class="card--marseille-lodging__img">
                   <img
-                  srcset="images/lodging/medium/chez_amina.jpg 1499w, images/lodging/small/chez_amina.jpg 750w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/chez_amina.jpg"
-                  alt="Hôtel chez Amina"
-                  class="img-chez-amina">
-                </div>                
+                    srcset="
+                      images/lodging/medium/chez_amina.jpg 1499w,
+                      images/lodging/small/chez_amina.jpg   750w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/chez_amina.jpg"
+                    alt="Hôtel chez Amina"
+                    class="img-chez-amina"
+                  />
+                </div>
                 <h3 class="card__title">Hôtel chez Amina</h3>
                 <p class="card__price">Nuit à partir de 96<strong>€</strong></p>
                 <div class="card__starbox">
@@ -205,11 +260,11 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                </div>                 
+                </div>
               </div>
-            </a> 
+            </a>
           </div>
-          <p class="marseille-lodging__view-more"> Afficher plus</p>
+          <p class="marseille-lodging__view-more">Afficher plus</p>
         </div>
 
         <!--Popular-->
@@ -220,21 +275,26 @@
             <i class="fa-solid fa-star popular-star"></i>
           </div>
           <div class="popular-lodging__main">
-
             <a href="#">
               <div class="card card--popular-lodging">
                 <div class="card--popular-lodging__img">
                   <img
-                  srcset="images/lodging/medium/le_soleil_du_matin.jpg 1063w, images/lodging/small/le_soleil_du_matin.jpg 532w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/le_soleil_du_matin.jpg"
-                  alt="Hôtel Le soleil du matin"
-                  class="img-le-soleil-du-matin">
+                    srcset="
+                      images/lodging/medium/le_soleil_du_matin.jpg 1063w,
+                      images/lodging/small/le_soleil_du_matin.jpg   532w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/le_soleil_du_matin.jpg"
+                    alt="Hôtel Le soleil du matin"
+                    class="img-le-soleil-du-matin"
+                  />
                 </div>
-                <div class="card__text-box"> 
-                  <div>             
+                <div class="card__text-box">
+                  <div>
                     <h3 class="card__title">Hôtel Le soleil du matin</h3>
-                    <p class="card__price">Nuit à partir de 128<strong>€</strong></p>
+                    <p class="card__price">
+                      Nuit à partir de 128<strong>€</strong>
+                    </p>
                   </div>
                   <div class="card__starbox">
                     <i class="fa-solid fa-star"></i>
@@ -242,25 +302,33 @@
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                  </div> 
+                  </div>
                 </div>
-              </div>                
+              </div>
             </a>
 
             <a href="#">
               <div class="card card--popular-lodging">
                 <div class="card--popular-lodging__img">
                   <img
-                  srcset="images/lodging/medium/au_coeur_de_leau.jpg 1008w, images/lodging/small/au_coeur_de_leau.jpg 504w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/au_coeur_de_leau.jpg"
-                  alt="Au coeur de l'eau Chambres d'hôtes"
-                  class="img-au-coeur-de-leau">
+                    srcset="
+                      images/lodging/medium/au_coeur_de_leau.jpg 1008w,
+                      images/lodging/small/au_coeur_de_leau.jpg   504w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/au_coeur_de_leau.jpg"
+                    alt="Au coeur de l'eau Chambres d'hôtes"
+                    class="img-au-coeur-de-leau"
+                  />
                 </div>
-                <div class="card__text-box"> 
-                  <div>             
-                    <h3 class="card__title">Au cœur de l'eau Chambres d'hôtes</h3>
-                    <p class="card__price">Nuit à partir de 71<strong>€</strong></p>
+                <div class="card__text-box">
+                  <div>
+                    <h3 class="card__title">
+                      Au cœur de l'eau Chambres d'hôtes
+                    </h3>
+                    <p class="card__price">
+                      Nuit à partir de 71<strong>€</strong>
+                    </p>
                   </div>
                   <div class="card__starbox">
                     <i class="fa-solid fa-star"></i>
@@ -268,26 +336,32 @@
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star unselected-star"></i>
-                  </div> 
+                  </div>
                 </div>
-              </div>                
+              </div>
             </a>
 
             <a href="#">
               <div class="card card--popular-lodging">
                 <div class="card--popular-lodging__img">
                   <img
-                  srcset="images/lodging/medium/tout_bleu_et_blanc.jpg 1499w, images/lodging/small/tout_bleu_et_blanc.jpg 750w"
-                  sizes="(min-widht:768px) 25vw, 100vw"
-                  src="images/lodging/medium/tout_bleu_et_blanc.jpg"
-                  alt="Hôtel Tout bleu et blanc" 
-                  id="img--thin"
-                  class="img-tout-bleu-et-blanc">                  
+                    srcset="
+                      images/lodging/medium/tout_bleu_et_blanc.jpg 1499w,
+                      images/lodging/small/tout_bleu_et_blanc.jpg   750w
+                    "
+                    sizes="(min-widht:768px) 25vw, 100vw"
+                    src="images/lodging/medium/tout_bleu_et_blanc.jpg"
+                    alt="Hôtel Tout bleu et blanc"
+                    id="img--thin"
+                    class="img-tout-bleu-et-blanc"
+                  />
                 </div>
-                <div class="card__text-box"> 
-                  <div>             
+                <div class="card__text-box">
+                  <div>
                     <h3 class="card__title">Hôtel Tout bleu et blanc</h3>
-                    <p class="card__price">Nuit à partir de 68<strong>€</strong></p>
+                    <p class="card__price">
+                      Nuit à partir de 68<strong>€</strong>
+                    </p>
                   </div>
                   <div class="card__starbox">
                     <i class="fa-solid fa-star"></i>
@@ -295,9 +369,9 @@
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star unselected-star"></i>
-                  </div> 
+                  </div>
                 </div>
-              </div>                
+              </div>
             </a>
           </div>
         </div>
@@ -305,81 +379,99 @@
       <!--ACTIVITY-->
       <section class="activity" id="activity">
         <h2>Activités à Marseille</h2>
-        <div class="activity-main">          
-          <div class="activity-main__column"> 
-
-            <div class="card card--activity card--activity--alone">              
+        <div class="activity-main">
+          <div class="activity-main__column">
+            <div class="card card--activity card--activity--alone">
               <img
-              srcset="images/activity/medium/vieux-port.jpg 1404w, images/activity/small/vieux-port.jpg 702w"
-              sizes="(min-widht:992px) 25vw, 100vw"
-              src="images/activity/medium/vieux-port.jpg"
-              alt="Vieux Port"
-              class="card--activity__img">              
-              <h3 class="card__title">Vieux Port</h3>                               
-            </div>                
-            
+                srcset="
+                  images/activity/medium/vieux-port.jpg 1404w,
+                  images/activity/small/vieux-port.jpg   702w
+                "
+                sizes="(min-widht:992px) 25vw, 100vw"
+                src="images/activity/medium/vieux-port.jpg"
+                alt="Vieux Port"
+                class="card--activity__img"
+              />
+              <h3 class="card__title">Vieux Port</h3>
+            </div>
           </div>
           <div class="activity-main__column">
-
-            <div class="card card--activity card--activity--fort-de-pomegues">                  
+            <div class="card card--activity card--activity--fort-de-pomegues">
               <img
-              srcset="images/activity/medium/fort-de-pomegues.jpg 711w, images/activity/small/fort-de-pomegues.jpg 356w"
-              sizes="(min-widht:992px) 25vw, 100vw"
-              src="images/activity/medium/fort-de-pomegues.jpg"
-              alt="Fort de Pomègues"
-              class="card--activity__img">                       
-              <h3 class="card__title">Fort de Pomègues</h3>                  
+                srcset="
+                  images/activity/medium/fort-de-pomegues.jpg 711w,
+                  images/activity/small/fort-de-pomegues.jpg  356w
+                "
+                sizes="(min-widht:992px) 25vw, 100vw"
+                src="images/activity/medium/fort-de-pomegues.jpg"
+                alt="Fort de Pomègues"
+                class="card--activity__img"
+              />
+              <h3 class="card__title">Fort de Pomègues</h3>
             </div>
 
-            <div class="card card--activity card--activity--iles-du-frioul">                  
+            <div class="card card--activity card--activity--iles-du-frioul">
               <img
-              srcset="images/activity/medium/iles-du-frioul.jpg 1296w, images/activity/small/iles-du-frioul.jpg 648w"
-              sizes="(min-widht:992px) 25vw, 100vw"
-              src="images/activity/medium/iles-du-frioul.jpg"
-              alt="Îles du Frioul"
-              class="card--activity__img">                       
-              <h3 class="card__title">Îles du Frioul</h3>                  
+                srcset="
+                  images/activity/medium/iles-du-frioul.jpg 1296w,
+                  images/activity/small/iles-du-frioul.jpg   648w
+                "
+                sizes="(min-widht:992px) 25vw, 100vw"
+                src="images/activity/medium/iles-du-frioul.jpg"
+                alt="Îles du Frioul"
+                class="card--activity__img"
+              />
+              <h3 class="card__title">Îles du Frioul</h3>
             </div>
-
-          </div>    
-          <div class="activity-main__column"> 
-
-            <div class="card card--activity card--activity--alone">                  
-              <img
-              srcset="images/activity/medium/parc-national-des-calanques.jpg 1212w, images/activity/small/parc-national-des-calanques.jpg 606w"
-              sizes="(min-widht:992px) 25vw, 100vw"
-              src="images/activity/medium/parc-national-des-calanques.jpg"
-              alt="Parc National des Calanques"
-              class="card--activity__img">                           
-              <h3 class="card__title">Parc National des Calanques</h3>                  
-            </div>                
-            
           </div>
           <div class="activity-main__column">
-
-            <div class="card card--activity card--activity--notre-dame-de-la-garde">             
+            <div class="card card--activity card--activity--alone">
               <img
-              srcset="images/activity/medium/notre-dame-de-la-garde.jpg 1178w, images/activity/small/notre-dame-de-la-garde.jpg 589w"
-              sizes="(min-widht:992px) 25vw, 100vw"
-              src="images/activity/medium/notre-dame-de-la-garde.jpg"
-              alt="Notre-Dame-de-la-Garde"
-              class="card--activity__img">                       
-              <h3 class="card__title">Notre-Dame-de-la-Garde</h3>                  
+                srcset="
+                  images/activity/medium/parc-national-des-calanques.jpg 1212w,
+                  images/activity/small/parc-national-des-calanques.jpg   606w
+                "
+                sizes="(min-widht:992px) 25vw, 100vw"
+                src="images/activity/medium/parc-national-des-calanques.jpg"
+                alt="Parc National des Calanques"
+                class="card--activity__img"
+              />
+              <h3 class="card__title">Parc National des Calanques</h3>
             </div>
-            
-            <div class="card card--activity card--activity--parc-longchamp">                  
+          </div>
+          <div class="activity-main__column">
+            <div
+              class="card card--activity card--activity--notre-dame-de-la-garde"
+            >
               <img
-              srcset="images/activity/medium/parc-longchamp.jpg 1008w, images/activity/small/parc-longchamp.jpg 504w"
-              sizes="(min-widht:992px) 25vw, 100vw"
-              src="images/activity/medium/parc-longchamp.jpg"
-              alt="Parc Longchamp"
-              class="card--activity__img">                       
-              <h3 class="card__title">Parc Longchamp</h3>                  
+                srcset="
+                  images/activity/medium/notre-dame-de-la-garde.jpg 1178w,
+                  images/activity/small/notre-dame-de-la-garde.jpg   589w
+                "
+                sizes="(min-widht:992px) 25vw, 100vw"
+                src="images/activity/medium/notre-dame-de-la-garde.jpg"
+                alt="Notre-Dame-de-la-Garde"
+                class="card--activity__img"
+              />
+              <h3 class="card__title">Notre-Dame-de-la-Garde</h3>
             </div>
 
-          </div>          
+            <div class="card card--activity card--activity--parc-longchamp">
+              <img
+                srcset="
+                  images/activity/medium/parc-longchamp.jpg 1008w,
+                  images/activity/small/parc-longchamp.jpg   504w
+                "
+                sizes="(min-widht:992px) 25vw, 100vw"
+                src="images/activity/medium/parc-longchamp.jpg"
+                alt="Parc Longchamp"
+                class="card--activity__img"
+              />
+              <h3 class="card__title">Parc Longchamp</h3>
+            </div>
+          </div>
         </div>
-      </section>      
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__column footer__column--first">
@@ -389,7 +481,6 @@
           <li><a href="#">Conditions générales de vente</a></li>
           <li><a href="#">Données et confidentialité</a></li>
         </ul>
-        
       </div>
       <div class="footer__column footer__column--second">
         <h4>Nos hébergements</h4>
@@ -397,7 +488,6 @@
           <li><a href="#">Charte qualité</a></li>
           <li><a href="#">Soumettre votre hôtel</a></li>
         </ul>
-        
       </div>
       <div class="footer__column footer__column--third">
         <h4>Assistance</h4>
@@ -405,7 +495,6 @@
           <li><a href="#">Centre d'aide</a></li>
           <li><a href="#">Nous contacter</a></li>
         </ul>
-        
       </div>
     </footer>
   </body>
