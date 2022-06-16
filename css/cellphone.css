@@ -161,7 +161,7 @@ h2 {
   margin: 15px 0;
 }
 .card--marseille-lodging {
-  height: 395px;
+  height: auto;
 }
 .card--marseille-lodging__img {
   height: 227px;
