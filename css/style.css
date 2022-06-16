@@ -83,6 +83,7 @@ p {
   display: flex;
   height: 70px;
   margin-top: 30px;
+  width: 100%;
   font-size: 25px;
 }
 .searchbox__icon {
@@ -112,15 +113,15 @@ p {
 
 .filter {
   display: flex;
-  font-size: 25px;
+  font-size: 24px;
   margin: 50px 0;
 }
 .filter__btnbox {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 .filter__title {
-  margin-left: 0;
   margin: 0;
 }
 .filter__titlebox {
@@ -132,21 +133,20 @@ p {
 .filter__btn {
   display: flex;
   align-items: center;
-  position: relative;
   height: 70px;
   border: 2px lightgrey solid;
   border-radius: 35px;
-  margin: 10px 18px;
+  margin: 10px 1%;
   cursor: pointer;
 }
 .filter__btn:hover {
   box-shadow: 0px 0px 30px lightgray;
 }
 .filter__btn__icon {
-  position: absolute;
-  left: -3px;
-  width: 70px;
-  height: 70px;
+  position: relative;
+  right: 3px;
+  min-width: 70px;
+  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,8 +155,8 @@ p {
   color: #0065fc;
 }
 .filter__btn__text {
-  margin: 25px;
-  margin-left: 75px;
+  margin: 0 15px;
+  margin-left: 20px;
 }
 
 /* INFO */
