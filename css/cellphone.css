@@ -197,7 +197,7 @@ h2 {
 }
 /*ACTIVITY*/
 .activity {
-  margin: 85px 6%;
+  margin: 0px 6%;
 }
 .activity-main {
   flex-direction: column;
@@ -238,4 +238,27 @@ h2 {
 }
 .footer li {
   margin: 25px 0;
+}
+@media screen and (max-width: 400px)
+{    
+    nav{
+      font-size: 25px;
+    }
+    .searchbox{
+      font-size: 21px;
+    }
+    .filter .filter__btn{
+      font-size: 25px;
+    }
+    .filter__btn,
+    .filter__btn__icon{
+      height: 75px;
+      border-radius: 45px;
+      border-width: 3px;
+    }
+
+
+.filter__btn__icon{
+  min-width: 75px;
+}
 }
