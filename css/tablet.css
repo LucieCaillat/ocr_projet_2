@@ -84,8 +84,10 @@ h2 {
   width: 100%;
 }
 .marseille-lodging__main a {
-  min-width: 0px;
   width: 48%;
+}
+.card--marseille-lodging {
+  height: 280px;
 }
 .marseille-lodging .card__title {
   font-size: 26px;
